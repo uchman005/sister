@@ -1,0 +1,157 @@
+body {
+    
+    background-color: white;
+    font-family: 'Tapestry', cursive;
+    padding: 1px;
+}
+
+.white-section {
+    overflow: hidden;
+    color: black;
+    height: 400px;
+}
+
+.black-section {
+    background-color: #000;
+    color: white;
+}
+ 
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* First section */
+.text-center {
+    align-items: center;
+    justify-content: center;
+    width: 1flex;
+    margin: 1%;
+    padding: 10%;
+}
+
+.gist {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .text-center {
+        width: 0;
+        margin: 5%;
+        padding: 5%;
+        z-index: 3;
+        font-size: 1.5rem;
+    }
+
+    .gist {
+        text-decoration: underline;
+        color: rgba(255, 52, 7, 0.966);
+        ;
+    }
+
+    .profile_pic {
+        padding: 1%;
+        width: 400px;
+        height: 100%;
+        margin-right: 0;
+
+    }
+
+    .about-pic {
+        width: 200px;
+        margin: 1px;
+        padding: 0px;
+    }
+
+    .about-text {
+        width: 2flex;
+        padding: 2% 5%;
+    }
+}
+
+.image {
+    width: 28.125rem;
+    height: 28rem;
+    object-fit: contain;
+    object-position: center;
+
+}
+
+.profile_pic {
+    padding: 1%;
+    width: 2flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_text {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Tapestry', cursive;
+    margin: 7% 15%;
+}
+
+.articles-btn {
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    padding: 3px;
+    font-size: 1rem;
+}
+
+/* Second section */
+
+.about-pic {
+    width: 1flex;
+    margin: 10% 3% 7% 0%;
+    padding: 2% 5%;
+}
+
+.image-2 {
+    width: 15rem;
+    height: 20rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-text {
+    width: 2flex;
+    margin: 10% 3% 7% 0%;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+/* Third section */
+
+.service-pic {
+    width: 2flex;
+}
+
+.service-text {
+    width: 1flex;
+    margin: 10% 3% 7% 0%;
+}
+
+.service-img {
+    width: 25rem;
+    height: 20rem;
+    object-fit: contain;
+    object-position: center;
+    margin: 5%;
+    padding: 2%;
+}
+@media screen and (max-width: 768px) {
+    .service-img {
+        width: 18rem;
+        height: 15rem;
+    }
+    .service-pic {
+        width: 2flex;
+    }
+}
+    
