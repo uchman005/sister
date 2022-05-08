@@ -7,11 +7,13 @@ body {
 
 .white-section {
     color: #000000;
+    width: 100%;
 }
 
 .black-section {
     background-color: #000;
     color: white;
+    width: 100%;
 }
  
 .container {
