@@ -92,6 +92,23 @@ main {
     border: 0.063rem solid rgb(117, 102, 102);
 }
 
+.survey-btn{
+    border: 0.063rem solid rgb(196, 194, 194);
+    border-radius: 0.313rem;
+    text-decoration: none;
+    color: rgb(19, 7, 7);
+    padding: 0.188rem;
+    font-size: 1rem;
+    margin-left: 7%;
+}
+
+.survey-btn:hover {
+    color: rgb(63, 82, 141);
+    transition: color 0.5s;
+    transition: border 0.5s;
+    text-decoration: none;
+    border: 0.063rem solid rgb(82, 73, 136);
+}
 /* Second section */
 
 .about-pic {
